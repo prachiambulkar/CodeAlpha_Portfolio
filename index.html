@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Prachi Kiran Ambulkar - Aspiring Software Developer Portfolio">
+    <meta name="author" content="Prachi Kiran Ambulkar">
+
+    <title>Prachi Kiran Ambulkar | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">Prachi Ambulkar</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+                <span id="themeIcon">☀</span>
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        AVAILABLE TO LEARN & COLLABORATE
+                    </p>
+
+                    <p class="hero-greeting">Hello, I'm</p>
+
+                    <h1 id="heroName">
+                        Prachi Kiran <span>Ambulkar.</span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        I'm an
+                        <span id="typingText">Aspiring Software Developer</span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description" id="heroDescription">
+                        Curious mind. Creative ideas. Building my future one line of code at a time.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Let's Connect
+                        </a>
+
+                    </div>
+
+                    <div class="social-links" id="socialLinks"></div>
+
+                </div>
+
+                <!-- PROFILE PHOTO -->
+                <div class="hero-visual">
+
+                    <div class="profile-frame" id="profileFrame">
+
+                        <img
+                            src="./assets/images/profile.jpg"
+                            id="profileImage"
+                            alt="Prachi Kiran Ambulkar"
+                            style="width: 100%; height: auto; object-fit: contain; border-radius: 0;"
+                        >
+
+                        <div class="profile-placeholder" id="profilePlaceholder" hidden>
+                            <span>PKA</span>
+                            <small>YOUR PHOTO GOES HERE</small>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card card-code">
+                        <span>✦</span> Creative Developer
+                    </div>
+
+                    <div class="floating-card card-tech">
+                        <span>⌘</span> Always Learning
+                    </div>
+
+                    <div class="hero-decoration">✧</div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-hint">
+                SCROLL TO EXPLORE <span>↓</span>
+            </a>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">GET TO KNOW ME</p>
+
+                    <h2>
+                        A little about <span>my journey.</span>
+                    </h2>
+
+                    <p>
+                        Every great developer starts with curiosity. Here's mine.
+                    </p>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-card glass-card">
+
+                        <span class="card-symbol">✳</span>
+
+                        <h3>Behind the Codes</h3>
+
+                        <p id="aboutText">
+                            Hey everyone! I'm a developer driven by curiosity for
+                            Artificial Intelligence, Data Science, and building for the web.
+                            Whether I'm exploring a new framework or tackling a tricky problem,
+                            my goal is simple: continuously improve my craft and build digital
+                            experiences that actually help people.
+                        </p>
+
+                    </div>
+
+                    <div class="about-side">
+
+                        <div class="glass-card mini-card">
+
+                            <span class="mini-icon">🎓</span>
+
+                            <div>
+                                <h3>My Field</h3>
+                                <p id="educationText">
+                                    Artificial Intelligence and Data Science
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="glass-card mini-card">
+
+                            <span class="mini-icon">🎯</span>
+
+                            <div>
+                                <h3>My Goal</h3>
+                                <p id="goalText">
+                                    Build real-world projects and grow as a software developer.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="glass-card mini-card">
+
+                            <span class="mini-icon">💡</span>
+
+                            <div>
+                                <h3>My Interests</h3>
+                                <p id="interestsText">
+                                    Web development, AI and creative problem-solving.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">WHAT I'M LEARNING</p>
+
+                    <h2>
+                        My creative <span>toolkit.</span>
+                    </h2>
+
+                    <p>
+                        Technologies and skills I'm exploring on my development journey.
+                    </p>
+
+                </div>
+
+                <div class="skills-grid" id="skillsGrid">
+
+                    <!-- WEB DEVELOPMENT -->
+                    <div class="skill-card">
+                        <h3>Web Development</h3>
+
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Responsive Web Design</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <!-- PROGRAMMING LANGUAGES -->
+                    <div class="skill-card">
+                        <h3>Programming Languages</h3>
+
+                        <div class="skill-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C++</span>
+                        </div>
+                    </div>
+
+                    <!-- TOOLS & PLATFORMS -->
+                    <div class="skill-card">
+                        <h3>Tools & Platforms</h3>
+
+                        <div class="skill-list">
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">n8n</span>
+                        </div>
+                    </div>
+
+                    <!-- EMERGING TECHNOLOGIES -->
+                    <div class="skill-card">
+                        <h3>Emerging Technologies</h3>
+
+                        <div class="skill-list">
+                            <span class="skill-tag">Artificial Intelligence Concepts</span>
+                            <span class="skill-tag">Internet of Things (IoT)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">THINGS I'VE BUILT</p>
+
+                    <h2>
+                        Featured <span>projects.</span>
+                    </h2>
+
+                    <p>
+                        A selection of my work, experiments and learning projects.
+                    </p>
+
+                </div>
+
+                <div class="project-filters" id="projectFilters"></div>
+
+                <div class="projects-grid" id="projectsGrid"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATES SECTION -->
+        <section class="section" id="certificates">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">MILESTONES & ACHIEVEMENTS</p>
+
+                    <h2>
+                        Learning, growing, <span>achieving.</span>
+                    </h2>
+
+                    <p>
+                        Every milestone is a reminder to keep moving forward.
+                    </p>
+
+                </div>
+
+                <div class="certificates-grid" id="certificatesGrid"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESUME SECTION -->
+        <section class="section resume-section" id="resume">
+
+            <div class="container">
+
+                <div class="resume-card glass-card">
+
+                    <div>
+
+                        <p class="eyebrow">MY PROFESSIONAL PROFILE</p>
+
+                        <h2>
+                            Want to know more <span>about me?</span>
+                        </h2>
+
+                        <p>
+                            My resume brings together my education, skills and projects in one place.
+                        </p>
+
+                    </div>
+
+                    <!-- UPDATED RESUME DOWNLOAD LINK -->
+                    <a class="btn btn-primary" href="./resume.pdf" download>
+                        Download Resume ↓
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">LET'S TALK</p>
+
+                    <h2>
+                        Have an idea? <span>Let's connect.</span>
+                    </h2>
+
+                    <p>
+                        I'm always happy to connect, learn and explore new opportunities.
+                    </p>
+
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info glass-card">
+
+                        <h3>Let's create something meaningful.</h3>
+
+                        <p>
+                            Whether it's a project, an opportunity or just a conversation,
+                            feel free to reach out.
+                        </p>
+
+                        <div id="contactDetails"></div>
+
+                    </div>
+
+                    <form class="contact-form glass-card" id="contactForm">
+
+                        <label for="contactName">Your name</label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                        <label for="contactEmail">Your email</label>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                        <label for="contactMessage">Your message</label>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message <span>↗</span>
+                        </button>
+
+                        <p class="form-note" id="formNote">
+                            The contact form will open your email app when configured.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-inner">
+
+            <a class="logo" href="#home">Prachi Ambulkar</a>
+
+            <p>
+                Designed & built with curiosity by
+                <span id="footerName">Prachi Kiran Ambulkar</span>.
+            </p>
+
+            <a href="#home" class="back-top">
+                Back to top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
